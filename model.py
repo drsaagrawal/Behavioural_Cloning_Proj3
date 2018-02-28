@@ -9,6 +9,7 @@ import csv
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+#%matplotlib inline
 from sklearn.utils import shuffle
 lines = []
 correction=0.1
@@ -124,9 +125,4 @@ model.save('model.h5')
 # In[ ]:
 
 model.summary()
-
-
-# In[ ]:
-
-
 
