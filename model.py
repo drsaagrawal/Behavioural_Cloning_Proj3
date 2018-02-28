@@ -8,8 +8,6 @@
 import csv
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
-get_ipython().magic('matplotlib inline')
 from sklearn.utils import shuffle
 lines = []
 correction=0.1
